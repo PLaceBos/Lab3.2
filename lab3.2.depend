@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1587806807 source:c:\users\лапоть\desktop\1 semester\lab3.2\main.cpp
+	<iostream>
+	<iostream>
+	"Edition.h"
+	"Journal.h"
+	"Book.h"
+	"Newspaper.h"
+	<string>
+
+1587806367 c:\users\лапоть\desktop\1 semester\lab3.2\edition.h
+	<iostream>
+	<string>
+
+1587806945 c:\users\лапоть\desktop\1 semester\lab3.2\journal.h
+	"Edition.h"
+
+1587806945 c:\users\лапоть\desktop\1 semester\lab3.2\book.h
+	"Edition.h"
+
+1587806945 c:\users\лапоть\desktop\1 semester\lab3.2\newspaper.h
+	"Edition.h"
+
