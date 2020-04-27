@@ -9,7 +9,7 @@ Journal::Journal(){
     number = 0;
 }
 
-Journal::Journal(const journal &b){
+Journal::Journal(const Journal &b){
     name = b.name;
     year = b.year;
     number = b.number;
