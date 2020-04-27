@@ -1,6 +1,6 @@
 #include "Newspaper.h"
 
-Newspaper::Newspaper(string name_, int year_, int form_, string color_):izdanie(name_, year_){
+Newspaper::Newspaper(string name_, int year_, int form_, string color_):Edition(name_, year_){
     if(!SetForm(form_))
     form = 0;
     color = color_;
