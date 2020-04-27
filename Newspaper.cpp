@@ -11,7 +11,7 @@ Newspaper::Newspaper(){
     color = "";
 }
 
-Newspaper::Newspaper(const newspaper &b){
+Newspaper::Newspaper(const Newspaper &b){
     name = b.name;
     year = b.year;
     form = b.form;
