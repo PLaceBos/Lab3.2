@@ -11,7 +11,7 @@ Book::Book(){
     author = "";
 }
 
-Book::Book(const book &b){
+Book::Book(const Book &b){
     name = b.name;
     year = b.year;
     pages = b.pages;
