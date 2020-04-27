@@ -5,12 +5,17 @@
 #include "Book.h"
 #include "Newspaper.h"
 #include <string>
+#include "Edition.cpp"
+#include "Journal.cpp"
+#include "Book.cpp"
+#include "Newspaper.cpp"
 
 using namespace std;
 
+
 int main()
 {
-string name1, author1, colorful;
+string name1, author1, color1;
 int year1, number1, pages1, c, form1;
     cout << "1. Journal\n;" << endl;
     cout << "2. Book\n;" << endl;
@@ -106,7 +111,7 @@ int year1, number1, pages1, c, form1;
     cout << "Invalid number, input positive number!"<< endl<<endl;
     goto f;}
     cout << "Input colorful newspaper: ";
-    cin >> colorful;
+    cin >> color1;
     cout << endl;
 
     Newspaper sat( name1, year1, form1, color1);
